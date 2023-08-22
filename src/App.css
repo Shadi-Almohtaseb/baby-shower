@@ -9,4 +9,41 @@
   --d1: "#fde8d3";
   --d2: "#daebe3";
   --d3: "#99cdd8";
+  --d3: "#029ab9";
+}
+
+.standard-btn {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  border: 2px solid #08b0d2;
+  font-size: 1rem;
+  color: #08b0d2;
+  background-color: transparent;
+  transition: 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 999;
+  cursor: pointer;
+}
+.standard-btn:hover {
+  color: #fff;
+}
+
+.standard-btn::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 4%;
+  top: 0;
+  left: 0;
+  background-color: #08b0d2;
+  z-index: -1;
+  transition: 0.4s ease;
+  color: #fff;
+}
+
+.standard-btn:hover::before {
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
 }

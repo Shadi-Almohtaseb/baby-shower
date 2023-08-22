@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav>
-      <ul>
+    <nav className="h-16 pl-24 pr-24 flex items-center justify-between sticky top-0 bg-transparent backdrop-blur-lg">
+      <ul className="flex items-center justify-start gap-14 text-xl text-[#00246b]">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -14,6 +14,9 @@ const Header = () => {
           <a href="#questions">Questions</a>
         </li>
       </ul>
+      <span className="tracking-[12px] standard-btn mt-4 font-semibold">
+        RSVP
+      </span>
     </nav>
   );
 };

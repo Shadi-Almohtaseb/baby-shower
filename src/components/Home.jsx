@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div id="home" className="flex flex-col h-[100vh] bg-[#daebe3]">
       <article className="flex items-center flex-col">
-        <span className="text-[8rem] font-semibold text-[#39b4cd]">
+        <span className="text-[8rem] font-semibold text-[#37bfdb]">
           Oh Baby!
         </span>
         <span className=" text-xl text-[#175c6a] tracking-wider">

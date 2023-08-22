@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="h-16 pl-24 pr-24 flex items-center justify-between sticky top-0 bg-transparent backdrop-blur-xl z-20">
+    <nav className="h-20 pl-24 pr-24 flex items-center justify-between sticky top-0 bg-transparent backdrop-blur-xl z-20">
       <ul className="flex items-center justify-start gap-14 text-xl text-[#2d4066]">
         <li>
           <a href="#home">Home</a>

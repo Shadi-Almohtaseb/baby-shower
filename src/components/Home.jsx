@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import babyShowerImage1 from "../assets/images/baby-shower2.png";
+import babyShowerImage1 from "../assets/images/baby shower-amico (1).png";
 import babyShowerImage2 from "../assets/images/baby-shower3.png";
 import backgroundImage from "../assets/images/bg.png";
 
@@ -22,7 +22,7 @@ const Home = () => {
         <span className="text-[8rem] font-semibold text-[#39b4cd]">
           Oh Baby!
         </span>
-        <span className=" text-lg text-[#175c6a] tracking-wider">
+        <span className=" text-xl text-[#175c6a] tracking-wider">
           "You're invited to"
         </span>
       </article>
@@ -45,6 +45,9 @@ const Home = () => {
         </span>
         <span className="z-10">Jun 23, 2035, 11:00 AM</span>
       </div>
+      <span className="tracking-[12px] standard-btn mt-12 font-semibold w-fit self-center">
+        RSVP NOW
+      </span>
     </div>
   );
 };

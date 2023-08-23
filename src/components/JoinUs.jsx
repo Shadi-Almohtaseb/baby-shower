@@ -2,7 +2,7 @@ import React from "react";
 
 const JoinUs = () => {
   return (
-    <div id="join" className="h-full bg-[#dbe1d1] pb-16">
+    <div id="join" className="h-full bg-[#cfd6c4] pb-16">
       <article className="flex justify-center flex-col mt-3 pt-16">
         <span className="md:text-[6rem] sm:text-[4rem] text-[3rem] text-center z-10 md:mt-10 mt-0 tracking-wider text-[#242f25]">
           Join Us

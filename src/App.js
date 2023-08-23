@@ -7,7 +7,7 @@ import Questions from "./components/Questions";
 
 function App() {
   return (
-    <div className="bg-[#daebe3]">
+    <div className="bg-[#ffedda]">
       <Header />
       <Home />
       <JoinUs />

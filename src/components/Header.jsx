@@ -18,7 +18,7 @@ const Header = () => {
           alt="menu"
         />
       </button>
-      <ul className="hidden md:flex pl-24 items-center justify-start gap-14 text-xl text-[#2d4066]">
+      <ul className="hidden md:flex pl-24 items-center justify-start gap-14 text-xl text-[#2f1105] font-semibold">
         <li>
           <a href="#home">Home</a>
         </li>

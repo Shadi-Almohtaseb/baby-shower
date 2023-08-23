@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import babyShowerImage1 from "../assets/images/baby shower-amico (1).png";
-import babyShowerImage2 from "../assets/images/baby-shower3.png";
-import backgroundImage from "../assets/images/bg.png";
+import babyShowerImage1 from "../assets/images/Baby-amico.png";
+import babyShowerImage2 from "../assets/images/baby shower-bro.png";
+import babyShowerImage from "../assets/images/bg-gifts.png";
 
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(babyShowerImage1);
@@ -19,22 +19,22 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="flex justify-center flex-col h-full bg-[#daebe3] md:mt-0 mt-10"
+      className="flex justify-center flex-col h-full bg-[#feeaef] md:mt-0 mt-10"
     >
       <article className="flex items-center flex-col">
-        <span className="md:text-[8rem] sm:text-[6rem] text-[3rem] font-semibold text-[#37bfdb]">
+        <span className="md:text-[8rem] sm:text-[6rem] text-[3rem] font-semibold text-[#FD90B7]">
           Oh Baby!
         </span>
-        <span className="md:text-xl text-base text-[#175c6a] tracking-wider">
+        <span className="md:text-xl text-base text-[#981543] tracking-wider">
           "You're invited to"
         </span>
       </article>
-      <div className="flex items-center flex-col justify-center mt-10">
+      <div className="flex items-center flex-col justify-center mt-0">
         <img
-          className="absolute"
-          src={backgroundImage}
-          width={1100}
-          height={500}
+          className="absolute hidden md:flex"
+          src={babyShowerImage}
+          width={1000}
+          height={400}
           alt="background Image"
         />
         <img

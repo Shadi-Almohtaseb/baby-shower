@@ -15,9 +15,9 @@
 .standard-btn {
   /* padding: 0.8rem 2rem; */
   border-radius: 5px;
-  border: 2px solid #37bfdb;
+  border: 2px solid #ff709d;
   /* font-size: 1rem; */
-  color: #37bfdb;
+  color: #ff709d;
   background-color: transparent;
   transition: 0.4s ease;
   position: relative;
@@ -36,7 +36,7 @@
   width: 4%;
   top: 0;
   left: 0;
-  background-color: #37bfdb;
+  background-color: #ff709d;
   z-index: -1;
   transition: 0.4s ease;
   color: #fff;

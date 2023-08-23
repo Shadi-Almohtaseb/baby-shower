@@ -1,7 +1,16 @@
 import React from "react";
+import backgroundImage from "../assets/images/cozy-nursery-with-cute-toy-comfortable-bedding-generated-by-ai.jpg"; // Replace with your actual image path
 
 const FixedImage = () => {
-  return <div className="h-[100vh] bg-red-200">FixedImage</div>;
+  const containerStyle = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundAttachment: "fixed",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "75vh",
+  };
+
+  return <div style={containerStyle}></div>;
 };
 
 export default FixedImage;

@@ -15,9 +15,9 @@
 .standard-btn {
   /* padding: 0.8rem 2rem; */
   border-radius: 5px;
-  border: 2px solid #37bfdb;
+  border: 2px solid #ffa987;
   /* font-size: 1rem; */
-  color: #37bfdb;
+  color: #ffa987;
   background-color: transparent;
   transition: 0.4s ease;
   position: relative;
@@ -36,13 +36,50 @@
   width: 4%;
   top: 0;
   left: 0;
-  background-color: #37bfdb;
+  background-color: #ffa987;
   z-index: -1;
   transition: 0.4s ease;
   color: #fff;
 }
 
 .standard-btn:hover::before {
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+}
+
+/* blue btn*/
+.standard-btn-blue {
+  /* padding: 0.8rem 2rem; */
+  border-radius: 5px;
+  border: 2px solid #029ab9;
+  /* font-size: 1rem; */
+  color: #029ab9;
+  background-color: transparent;
+  transition: 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+  cursor: pointer;
+}
+.standard-btn-blue:hover {
+  color: #fff;
+}
+
+.standard-btn-blue::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 4%;
+  top: 0;
+  left: 0;
+  background-color: #029ab9;
+  z-index: -1;
+  transition: 0.4s ease;
+  color: #fff;
+}
+
+.standard-btn-blue:hover::before {
   cursor: pointer;
   width: 100%;
   color: #fff;
@@ -60,7 +97,7 @@
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #515151;
+  border-bottom: 1px solid #029ab9;
   background: transparent;
 }
 
@@ -69,7 +106,7 @@
 }
 
 .wave-group .label {
-  color: #464646;
+  color: #029ab9;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
@@ -86,8 +123,8 @@
 
 .wave-group .input:focus ~ label .label-char {
   transform: translateY(-20px);
-  font-size: 14px;
-  color: #007aa7;
+  font-size: 18px;
+  color: #029ab9;
 }
 
 .wave-group .bar {
@@ -103,7 +140,7 @@
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #37bfdb;
+  background: #029ab9;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;

@@ -7,7 +7,7 @@ const FixedImage = () => {
     backgroundAttachment: "fixed",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "75vh",
+    height: "73vh",
   };
 
   return <div style={containerStyle}></div>;

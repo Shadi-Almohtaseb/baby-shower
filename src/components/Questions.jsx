@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Questions = () => {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
+  const [phone, setPhone] = useState();
   return (
-    <div id="questions" className="h-full bg-[#dbe1d1] pt-10">
+    <div
+      id="questions"
+      className="h-full bg-gradient-to-b from-[#dbe1d1] to-[#aed4db] pt-10"
+    >
       <article className="flex items-center justify-center flex-col">
         <span className="md:text-2xl text-[1.1rem] border-b-[1px] border-[#302e27] md:px-28 px-5 pb-4">
           Can’t wait to see you there!
@@ -18,39 +25,77 @@ const Questions = () => {
         <article className="mt-28">
           <div className="md:flex block md:px-5 ms:px-16 px-4 items-center justify-around lg:gap-[10rem] gap-[3rem]">
             <div className="wave-group w-full ">
-              <input required="" type="text" className="input" />
+              <input
+                required=""
+                type="text"
+                className="input"
+                onChange={(e) => setName(e.target.value)}
+              />
               <span className="bar"></span>
               <label className="label">
-                <span className="label-char">Name</span>
+                <span
+                  className={`label-char ${name ? "translate-y-[-25px]" : ""}`}
+                >
+                  Name
+                </span>
               </label>
             </div>
-            <div className="wave-group w-full md:mt-0 mt-16">
-              <input required="" type="text" className="input" />
+            <div className="wave-group w-full md:mt-0 mt-16 ">
+              <input
+                required=""
+                type="text"
+                className="input"
+                onChange={(e) => setMessage(e.target.value)}
+              />
               <span className="bar"></span>
               <label className="label">
-                <span className="label-char">Message</span>
+                <span
+                  className={`label-char ${
+                    message ? "translate-y-[-25px]" : ""
+                  }`}
+                >
+                  Message
+                </span>
               </label>
             </div>
           </div>
           <div className="md:flex block md:px-5 ms:px-16 px-4 items-center justify-around lg:gap-[10rem] gap-[3rem] md:mt-24 mt-16">
             <div className="wave-group w-full ">
-              <input required="" type="email" className="input" />
+              <input
+                required=""
+                type="email"
+                className="input"
+                onChange={(e) => setEmail(e.target.value)}
+              />
               <span className="bar"></span>
               <label className="label">
-                <span className="label-char">Email</span>
+                <span
+                  className={`label-char ${email ? "translate-y-[-25px]" : ""}`}
+                >
+                  Email
+                </span>
               </label>
             </div>
             <div className="wave-group w-full md:mt-0 mt-16">
-              <input required="" type="number" className="input" />
+              <input
+                required=""
+                type="number"
+                className="input"
+                onChange={(e) => setPhone(e.target.value)}
+              />
               <span className="bar"></span>
               <label className="label">
-                <span className="label-char">Phone</span>
+                <span
+                  className={`label-char ${phone ? "translate-y-[-25px]" : ""}`}
+                >
+                  Phone
+                </span>
               </label>
             </div>
           </div>
         </article>
         <div className="flex items-center justify-start mt-10 ml-4 lg:ml-5 md:mt-16">
-          <span className="sm:tracking-[10px] tracking-[7px] sm:text-[1rem] text-[15px] standard-btn flex justify-center font-semibold px-[13px] py-[11px] pl-6 sm:py-[0.7rem] sm:px-[1.6rem] sm:pl-[40px]">
+          <span className="sm:tracking-[8px] tracking-[7px] sm:text-[1rem] text-[15px] standard-btn-blue flex justify-center font-semibold px-[13px] py-[11px] pl-6 sm:py-[0.7rem] sm:px-[1.6rem] sm:pl-[40px]">
             Send
           </span>
         </div>

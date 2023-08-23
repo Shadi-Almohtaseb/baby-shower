@@ -7,7 +7,7 @@ import Questions from "./components/Questions";
 
 function App() {
   return (
-    <div className="bg-[#ffedda]">
+    <div className="bg-gradient-to-b from-[#ffe7d0] to-[#fcf7f1]">
       <Header />
       <Home />
       <JoinUs />

@@ -2,8 +2,11 @@ import React from "react";
 
 const JoinUs = () => {
   return (
-    <div id="join" className="h-full bg-[#cfd6c4] pb-16">
-      <article className="flex justify-center flex-col mt-3 pt-16">
+    <div
+      id="join"
+      className="h-full bg-gradient-to-b from-[1%] to-[70%] from-[#fff6ed] to-[#c5f4e3] pb-16"
+    >
+      <article className="flex justify-center flex-col pt-24">
         <span className="md:text-[6rem] sm:text-[4rem] text-[3rem] text-center z-10 md:mt-10 mt-0 tracking-wider text-[#242f25]">
           Join Us
         </span>
@@ -45,7 +48,7 @@ const JoinUs = () => {
             </span>{" "}
           </article>
         </div>
-        <span className="tracking-[12px] w-full h-16 flex items-center justify-center font-semibold self-center bg-[#48414191] text-white">
+        <span className="tracking-[12px] w-full h-16 flex items-center justify-center font-semibold self-center bg-[#657166] text-white">
           <p className="cursor-pointer hover:text-[#ffffffa4]">RSVP NOW</p>
         </span>
       </div>

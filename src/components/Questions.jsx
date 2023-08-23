@@ -6,7 +6,10 @@ const Questions = () => {
   const [message, setMessage] = useState();
   const [phone, setPhone] = useState();
   return (
-    <div id="questions" className="h-full bg-[#dbe1d1] pt-10">
+    <div
+      id="questions"
+      className="h-full bg-gradient-to-b from-[#dbe1d1] to-[#aed4db] pt-10"
+    >
       <article className="flex items-center justify-center flex-col">
         <span className="md:text-2xl text-[1.1rem] border-b-[1px] border-[#302e27] md:px-28 px-5 pb-4">
           Can’t wait to see you there!

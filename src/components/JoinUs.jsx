@@ -4,7 +4,7 @@ const JoinUs = () => {
   return (
     <div
       id="join"
-      className="h-full bg-gradient-to-b from-[1%] to-[70%] from-[#fff6ed] to-[#c5f4e3] pb-16"
+      className="h-full bg-gradient-to-b  from-[#fff6ed] to-[#dbeae5] pb-16"
     >
       <article className="flex justify-center flex-col pt-24">
         <span className="md:text-[6rem] sm:text-[4rem] text-[3rem] text-center z-10 md:mt-10 mt-0 tracking-wider text-[#242f25]">

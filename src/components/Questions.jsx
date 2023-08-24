@@ -8,7 +8,7 @@ const Questions = () => {
   return (
     <div
       id="questions"
-      className="h-full bg-gradient-to-b from-[#dbe1d1] to-[#aed4db] pt-10"
+      className="h-full bg-gradient-to-b from-[#fff6ed] to-[#daebe3] pt-10"
     >
       <article className="flex items-center justify-center flex-col">
         <span className="md:text-2xl text-[1.1rem] border-b-[1px] border-[#302e27] md:px-28 px-5 pb-4">
